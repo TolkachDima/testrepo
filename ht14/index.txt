@@ -1,0 +1,36 @@
+<!-- <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NodeJS Website</title>
+  <style>
+   body {
+    background: skyblue;
+    font-family: verdana;
+    color: #fff;
+    padding: 30px;
+   }
+
+   h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+   }
+
+   p {
+    font-size: 16px;
+    text-align: center;
+   }
+  </style>
+</head>
+<body>
+  <h1>Добро пожаловать на самый продвинутый веб-сайт в интернете</h1>
+  <p>Вы нигде не найдете веб-сайта лучше, чем наш!</p>
+</body>
+</html> -->
+
+lsfnfjdbgvlf;nldbndbd;'bjdp'bh
+
+
+
