@@ -10,7 +10,7 @@ http.createServer(function(req, res){
         res.write("hiiiiii");
         res.end();
         }else if(req.url === "/contact"){
-            var readStream = fs.createReadStream(__dirname + '/index.html');
+            var readStream = fs.createReadStream(__dirname + '/index.html'); //на поиск ошибки в фразе createReadStream блыло потраче 4 часа...
             readStream.pipe(res);
             
         }else{
