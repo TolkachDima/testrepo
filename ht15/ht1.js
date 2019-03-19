@@ -16,10 +16,13 @@ http.createServer(function(req,res){
 
 
 }else if(req.url === "/file"){
-    res.writeHead(200, {"index.txt"});
-
+    fs.readFile('index2.txt', 'utf8', function(err, data){ 
+        if(err){console.log(err)};
+        res.write(data);
+        res.end();
+    })
 }else{
-    res.write("last page");
+    res.write("ERROR");
     res.end();
 }
 
