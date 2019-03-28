@@ -4,6 +4,17 @@ html(lang="ru-RU")
     body
         include public/header
         h1 cont
-    div
-        input() 
-    
+    div#nameOfDiv
+        input(
+            type= "text"
+            id = "userName"
+            value = "Your Name"
+        ) 
+        input(
+            type = "button"
+            value = "Send"
+            id = "FirstButt"
+            onclick = 'alert("document.getElementById('userName')[0].value")'
+         )
+        script(src="script.js")
+        
