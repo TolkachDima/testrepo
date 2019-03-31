@@ -4,17 +4,41 @@ html(lang="ru-RU")
     body
         include public/header
         h1 cont
-    div#nameOfDiv
+    div#nameOfDiv1
         input(
             type= "text"
-            id = "userName"
+            id = "userName1"
             value = "Your Name"
         ) 
         input(
             type = "button"
             value = "Send"
-            id = "FirstButt"
-            onclick = 'alert("document.getElementById('userName')[0].value")'
+            id = "FirstButt1"
+            onclick = "send1()"
+         )
+    div#nameOfDiv2
+        input(
+            type= "text"
+            id = "userName2"
+            value = "Your Name"
+        ) 
+        input(
+            type = "button"
+            value = "Send"
+            id = "FirstButt2"
+            onclick = "send2()"
+         )
+    div#nameOfDiv3
+        input(
+            type= "text"
+            id = "userName3"
+            value = "Your Name"
+        ) 
+        input(
+            type = "button"
+            value = "Send"
+            id = "FirstButt3"
+            onclick = "send3()"
          )
         script(src="script.js")
         
