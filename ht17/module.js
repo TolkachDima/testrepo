@@ -1,6 +1,6 @@
 var Converter = require("./converter");
 var request = require("request")
-
+var baseCurrencyUs= null;
 
 
 function f (cb) {
@@ -8,7 +8,7 @@ function f (cb) {
     if (!error && response.statusCode == 200) {
   
       var data = JSON.parse(body);  
-      var baseCurrencyUs = +(data[2].buy);
+      baseCurrencyUs = +(data[2].buy);
       return cb(baseCurrencyUs);   
     } else {
       console.warn(error);

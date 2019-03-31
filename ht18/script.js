@@ -6,3 +6,4 @@ var check = document.getElementById("FirstButt");
     function send(){
         alert("nameOfDiv.innerHtml");
     }
+send();
